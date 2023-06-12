@@ -75,50 +75,45 @@ void draw_wireframe(void)
  u8g2.drawLine(wireframe[25][0], wireframe[25][1], wireframe[26][0], wireframe[26][1]);
  u8g2.drawLine(wireframe[26][0], wireframe[26][1], wireframe[22][0], wireframe[22][1]);//Ireland
 
- for (w = 27; w < 82; w++){
+ for (w = 27; w < 84; w++){
   u8g2.drawLine(wireframe[w][0], wireframe[w][1], wireframe[w+1][0], wireframe[w+1][1]);
  }
- u8g2.drawLine(wireframe[82][0], wireframe[82][1], wireframe[37][0], wireframe[27][1]);//Europe, Asia, Africa
+ u8g2.drawLine(wireframe[84][0], wireframe[84][1], wireframe[37][0], wireframe[27][1]);//Europe, Asia, Africa
 
- for (w = 83; w < 115; w++){
+ for (w = 85; w < 117; w++){
   u8g2.drawLine(wireframe[w][0], wireframe[w][1], wireframe[w+1][0], wireframe[w+1][1]);
  }
- u8g2.drawLine(wireframe[115][0], wireframe[115][1], wireframe[83][0], wireframe[83][1]);//Americas
+ u8g2.drawLine(wireframe[117][0], wireframe[117][1], wireframe[85][0], wireframe[85][1]);//Americas
 
- for (w = 116; w < 123; w++){
+ for (w = 118; w < 125; w++){
   u8g2.drawLine(wireframe[w][0], wireframe[w][1], wireframe[w+1][0], wireframe[w+1][1]);
  }
- u8g2.drawLine(wireframe[123][0], wireframe[123][1], wireframe[116][0], wireframe[116][1]);//Australia
+ u8g2.drawLine(wireframe[125][0], wireframe[125][1], wireframe[118][0], wireframe[118][1]);//Australia
 
- for (w = 124; w < 126; w++){
+ for (w = 126; w < 128; w++){
   u8g2.drawLine(wireframe[w][0], wireframe[w][1], wireframe[w+1][0], wireframe[w+1][1]);
  }
- u8g2.drawLine(wireframe[126][0], wireframe[126][1], wireframe[124][0], wireframe[124][1]);//Madagascar
+ u8g2.drawLine(wireframe[128][0], wireframe[128][1], wireframe[126][0], wireframe[126][1]);//Madagascar
 
- for (w = 127; w < 131; w++){
+ for (w = 129; w < 133; w++){
   u8g2.drawLine(wireframe[w][0], wireframe[w][1], wireframe[w+1][0], wireframe[w+1][1]);
  }
- u8g2.drawLine(wireframe[131][0], wireframe[131][1], wireframe[127][0], wireframe[127][1]);//Japan
+ u8g2.drawLine(wireframe[133][0], wireframe[133][1], wireframe[129][0], wireframe[129][1]);//Japan
 
- for (w = 132; w < 134; w++){
+ for (w = 134; w < 136; w++){
   u8g2.drawLine(wireframe[w][0], wireframe[w][1], wireframe[w+1][0], wireframe[w+1][1]);
  }
- u8g2.drawLine(wireframe[134][0], wireframe[134][1], wireframe[132][0], wireframe[132][1]);//Borneo
+ u8g2.drawLine(wireframe[136][0], wireframe[136][1], wireframe[134][0], wireframe[134][1]);//Borneo
 
- for (w = 135; w < 138; w++){
+ for (w = 137; w < 140; w++){
   u8g2.drawLine(wireframe[w][0], wireframe[w][1], wireframe[w+1][0], wireframe[w+1][1]);
  }
- u8g2.drawLine(wireframe[138][0], wireframe[138][1], wireframe[135][0], wireframe[135][1]);//New Zealand
+ u8g2.drawLine(wireframe[140][0], wireframe[140][1], wireframe[137][0], wireframe[137][1]);//New Zealand
 
- for (w = 139; w < 150; w++){
+ for (w = 141; w < 152; w++){
   u8g2.drawLine(wireframe[w][0], wireframe[w][1], wireframe[w+1][0], wireframe[w+1][1]);
  }
- u8g2.drawLine(wireframe[150][0], wireframe[150][1], wireframe[139][0], wireframe[139][1]);//Antarctica
-
- for (w = 151; w < 153; w++){
-  u8g2.drawLine(wireframe[w][0], wireframe[w][1], wireframe[w+1][0], wireframe[w+1][1]);
- }
- u8g2.drawLine(wireframe[153][0], wireframe[153][1], wireframe[151][0], wireframe[151][1]);//Sri Lanka
+ u8g2.drawLine(wireframe[152][0], wireframe[152][1], wireframe[141][0], wireframe[141][1]);//Antarctica
 
  for (w = 154; w < 156; w++){
   u8g2.drawLine(wireframe[w][0], wireframe[w][1], wireframe[w+1][0], wireframe[w+1][1]);
