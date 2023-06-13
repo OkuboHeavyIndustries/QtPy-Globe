@@ -1,6 +1,6 @@
-int globe_cnt = 161;
+int globe_cnt = 169;
 int globe_scale = 2;
-int globe_vertices[161][2] = {
+int globe_vertices[169][2] = {
 
 {79,65},  //0 Greenland 
 {82,15},  //1
@@ -164,5 +164,17 @@ int globe_vertices[161][2] = {
 {18,71},  //159
 
 {19,155},  //160 Hawaii
+
+{-9,-150},  //161 Papua New Guinea
+{-9,-142},  //162 
+{-2,-133},  //163
+{-4,-143},  //164 
+
+{23,-121},  //165 Taiwan
+
+{17,-121},  //166 Philippines
+{12,-124},  //167 Philippines
+{7,-125},  //168 Philippines
+
   
 };
