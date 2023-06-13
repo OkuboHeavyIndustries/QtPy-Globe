@@ -125,6 +125,11 @@ void draw_wireframe(void)
  }
  u8g2.drawLine(wireframe[159][0], wireframe[159][1], wireframe[157][0], wireframe[157][1]);//Dominica 
 
+ for (w = 161; w < 164; w++){
+  u8g2.drawLine(wireframe[w][0], wireframe[w][1], wireframe[w+1][0], wireframe[w+1][1]);
+ }
+ u8g2.drawLine(wireframe[164][0], wireframe[164][1], wireframe[161][0], wireframe[161][1]);//Dominica 
+
 u8g2.drawCircle(64,32,64*scalefactor);
 
 }
