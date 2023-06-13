@@ -157,12 +157,12 @@ void loop(void)
     roty = globe_vertices[i][1];
 //rotateX
     rotyy = roty * cos(rot) - rotz * sin(rot);
-    rotzz = roty * sin(rot) + rotz * cos(rot);
+    //rotzz = roty * sin(rot) + rotz * cos(rot);
     rotxx = rotx;
 //rotateZ
     rotxxx = rotxx * cos(zrot) - rotyy * sin(zrot);
     rotyyy = rotxx * sin(zrot) + rotyy * cos(zrot);
-    rotzzz = rotzz;
+    //rotzzz = rotzz;
 
 //orthographic projection
     rotxxx = rotxxx * scalefactor + originx;
@@ -171,7 +171,7 @@ void loop(void)
 //store new vertices values for wireframe drawing
     wireframe[i][0] = rotxxx;
     wireframe[i][1] = rotyyy;
-    wireframe[i][2] = rotzzz;
+    //wireframe[i][2] = rotzzz;
 
      draw_vertices();
      
